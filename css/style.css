@@ -1,0 +1,78 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  line-height: 1.4em;
+  height: 100%;
+}
+
+html{
+  height: 100%;
+}
+
+.sidebar{
+  width: 250px;
+  height: 700px;
+  background-color: #fcfaf7;
+  border: 1px #fcfaf7 solid;
+  box-shadow: 0 5px 5px grey;
+  float: left;
+}
+
+ul{
+  list-style: none;
+  line-height: 2.5em;
+  padding-top: 20px;
+  
+}
+
+
+strong{
+  color: blue;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  padding: 50px 100px;
+}
+
+.heading{
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.box1, .box2, .box3{
+  height: 250px;
+  border: 1px black solid;
+  text-align: center;
+  
+}
+
+p{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.box1{
+  background-image: url('https://thumbs-prod.si-cdn.com/pydYYgqWguS2auuRyT1TctY1Z-4=/800x600/filters:no_upscale()/https://public-media.smithsonianmag.com/filer/21/17/2117ab75-ccac-4d1b-8b20-1cb5eb171826/istock_000001081246_large.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+}
+
+.box2{
+  background-image: url('https://lokaal24.cdn-tmo.nl/files//2018/2018-01/stormfoto.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+.box3{
+  background-image: url('https://www.almanac.com/sites/default/files/styles/primary_image_in_article/public/images/classifying-clouds.jpg?itok=FWzZnHQg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  opacity: 0.7;
+}
+
